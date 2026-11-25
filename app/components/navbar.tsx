@@ -18,7 +18,14 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <h1>
+                            <Link href="/">
+                    <img
+                        src="/Mainlogo.png"
+                        alt="GymFuel Logo"
+                        className="w-36 h-auto"
+                    />
+                </Link>
+                <h1>
                 <Link href="/">GymFuel</Link>
             </h1>
 
