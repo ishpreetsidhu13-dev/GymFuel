@@ -1,4 +1,3 @@
-
 'use client';
 
 import Link from "next/link";
@@ -25,9 +24,7 @@ export default function Navbar() {
                         className="w-36 h-auto"
                     />
                 </Link>
-                <h1>
-                <Link href="/">GymFuel</Link>
-            </h1>
+
 
             <ul>
                 <li>
