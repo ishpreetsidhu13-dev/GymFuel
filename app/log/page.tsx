@@ -38,7 +38,16 @@ export default function FoodLog() {
                 ) : (
                     <FoodList foods={foods} />
                 )}
-            </div>
+
+            
+             <div>
+                    <img
+                        src="/foodlog.png"
+                        alt="Healthy meal preparation with chicken and vegetables"
+                        className="w-full h-72 object-cover rounded-lg"
+                    />
+                </div>
+                </div>
         </main>
     );
 }

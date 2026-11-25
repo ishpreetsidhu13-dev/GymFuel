@@ -35,6 +35,14 @@ export default function Home() {
                 description="A simple way to keep track of what you eat."
             />
 
+            <div className="mb-6">
+                <img
+                    src="/gymfuel.png"
+                    alt="Healthy food and fitness nutrition"
+                    className="w-full h-64 object-cover rounded-lg"
+                />
+            </div>
+
             <section className="bg-zinc-900 border border-purple-900 rounded-lg p-6 mb-6">
 
                 <h2 className="text-2xl font-bold text-white mb-5">
